@@ -335,9 +335,10 @@ a {
 
   .item4 {
     grid-column: span 1;
-
     padding: 25px 20px;
     margin: 50px auto;
+    background-color: #ff4000;
+    width: 80%;
     text-align: center;
     color: black;
     font-size: 23px;
@@ -345,20 +346,21 @@ a {
 
   .item2 {
     grid-column: span 1;
-    text-align: center;
+    margin: 50px auto;
+    padding: 75px 20px;
     color: black;
   }
 
   .item3 {
     grid-column: span 1;
-
-    height: 116px;
     margin: 50px auto;
     padding: 75px 20px;
-    background: rgb(221, 255, 31);
     text-align: center;
     color: black;
-    font-size: 8em;
+  }
+
+  #profile-image {
+    width: 100%;
   }
 
   .a {
