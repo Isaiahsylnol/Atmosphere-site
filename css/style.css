@@ -51,8 +51,8 @@ body {
 }
 
 .item4 {
-  grid-column: span 3;
-  width: 80%;
+  grid-column: span 2;
+  width: 100%;
   padding: 25px 20px;
   margin: 50px auto;
   text-align: center;
@@ -61,19 +61,22 @@ body {
 }
 
 .item2 {
-  grid-column: span 1;
+  grid-column: span 2;
+  width: 80%;
+  padding: 25px 20px;
+  margin: 50px auto;
+  text-align: center;
+  color: black;
+  font-size: 23px;
 }
 
 .item3 {
   grid-column: span 4;
-  width: 200px;
-  margin: 50px auto;
-  max-height: 250px;
-  padding: 75px 20px;
-  background: yellow;
-  text-align: center;
+  width: 80%;
+  padding: 4em;
+  background-color: hsl(180, 6%, 93%);
   color: black;
-  font-size: 3px;
+  margin-left: 6em;
 }
 
 .item5 {
