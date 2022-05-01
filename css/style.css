@@ -3,7 +3,7 @@ html { background-color: #000; }
 body {
     min-height: 100vh; 
     margin: 0 auto;
-}
+}  
 
 .navbar{
   height: 100px;
@@ -14,8 +14,27 @@ a {
   text-decoration: none;
 }  
 
+.active {
+  background-color: #ff4000;
+}
+
+.index-p {
+  font-size: 20px;
+  max-width: 30em;
+  text-align: center;
+}
+
 #logo {
   margin: 0px 0px 0px 33px;
+}
+
+.container-layer{
+  padding: 2em;
+}
+
+.space {
+  padding: 4em;
+  margin-bottom: 11em;
 }
 
 #title {
@@ -26,42 +45,10 @@ a {
 
 #social {
   margin-left: 75%;
-}
+} 
 
 /* Layers CSS code*/
-
-.box {
-  background-color: hsl(180, 6%, 95%);
-  margin-left: 33px;
-  color: #000000;
-  padding: 20px;
-  border-radius: 7%;
-  font-size: 250%;
-}
   
-.stratosphere {
-  grid-column: col / span 5;
-  grid-row: row 4;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1%;
-  z-index: 1;
-}
-
-.strat-img {
-  grid-column: col 6 / span 5;
-  grid-row: row 4;
-}
-
-.trop {
-  grid-column: col / span 5;
-  grid-row: row 5;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 11%;
-  z-index: 1;
-}
- 
 #pic-2 {
   width: 70%;
   height: 11%;
@@ -107,14 +94,7 @@ a {
     text-align: center;
     color: black;
     font-size: 23px;
-  }
-
-  .item2 {
-    grid-column: span 1;
-    margin: 50px auto;
-    padding: 75px 20px;
-    color: black;
-  }
+  } 
 
   .item3 {
     grid-column: span 1;
@@ -137,52 +117,10 @@ a {
     padding-bottom: 54px;
     margin-left: -4%;
     width: 100%;
-  }
-
-  #social {
-    margin-left: 193px;
-    margin-top: 33px;
-  }
-  footer { 
-    width: 80%;
-  }
-
-  #footer_items {
-    display: inline-flex;
-    font-size: 14px;
-    margin-left: 4%;
-    margin-top: 70px;
-    padding-bottom: 36px;
-  }
-
-  #footer_items > li {
-    display: inline;
-    padding-right: 24px;
-    font-family: Helvetivca, Arial;
-  }
-
-  #footer-line {
-    background-color: hsl(48 95% 48%);
-    height: 24px;
-    width: 79%;
-    margin-top: -103px;
-    margin-left: 52px;
-  }
- 
+  }  
 }
 
 /* Sources Page */
-
-.box {
-  padding: 20px;
-  font-size: 25px;
-  margin-left: 3em;
-}
-
-.item {
-  margin-left: 10em;
-  width: 500px;
-} 
  
 .fold label {
   font-size: 21px;
@@ -289,7 +227,7 @@ hr {
 #media-body {
   height: 8%;
 }
-
+ 
 .surroundContainer {
   padding-top: 67px;
   margin-top: 10em;
