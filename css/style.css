@@ -3,6 +3,7 @@ html { background-color: #000; }
 body {
     min-height: 100vh; 
     margin: 0 auto;
+    background-color: #3052b8;
 }  
 
 .navbar{
@@ -11,8 +12,23 @@ body {
 
 a {
   color: black;
-  text-decoration: none;
+  text-decoration: #e6bc3c;
 }  
+
+p, h1, h2, h3, h5, a {
+  color: rgb(230, 230, 230);
+}
+
+footer {
+  background-color: #1e3373;
+  border: rgb(0, 0, 0) solid;
+}
+
+.footer-border {
+  border: rgb(230, 230, 230) solid 1px;
+  border-bottom: 0;
+  border-top: 0;
+}
 
 .active {
   background-color: #ff4000;
@@ -41,27 +57,9 @@ a {
   border-bottom: #ff4000 solid 5px;
   font-size: 43px;
   width: fit-content;
-}
-
-#social {
-  margin-left: 75%;
 } 
 
-/* Layers CSS code*/
-  
-#pic-2 {
-  width: 70%;
-  height: 11%;
-  margin: 7em 0px 0px 14%;
-}
-
-#pic-3 {
-  padding-bottom: 54px;
-  margin-left: 16%;
-  height: 599px;
-  width: 65%;
-} 
-
+/* Layers CSS code*/ 
 .spacer2 {
   margin-top: 64px;
 }
@@ -83,189 +81,55 @@ a {
   border-bottom: #ff4000 solid 5px;
 }
 
-@media only screen and (max-width: 700px) {
-
-  .item4 {
-    grid-column: span 1;
-    padding: 25px 20px;
-    margin: 50px auto;
-    background-color: #ff4000;
-    width: 80%;
-    text-align: center;
-    color: black;
-    font-size: 23px;
-  } 
-
-  .item3 {
-    grid-column: span 1;
-    margin: 50px auto;
-    padding: 75px 20px;
-    text-align: center;
-    color: black;
+@media only screen and (max-width: 1000px) { 
+  .footer-border {
+    background-color: #8398d7;
+    border: solid rgb(230, 230, 230);
+    color: #000;
   }
+
+  footer > p {
+    color: #000;
+  } 
 
   #profile-image {
     width: 100%;
-  }
-
-  #pic-2 {
-    height: 300px;
-    width: 100%;
-    margin: 7em 0px 0px -13px;
-  }
-  #pic-3 {
-    padding-bottom: 54px;
-    margin-left: -4%;
-    width: 100%;
-  }  
+  } 
+ 
 }
 
 /* Sources Page */
+
+.text-container {
+  background-color: #1e3373;
+  color: rgb(230, 230, 230);
+  border-radius: 11px;
+  max-width: 700px;
+  padding: 1.5em;
+  font-size: 22px;
+}
+
+.text-container:hover {
+  color:#e8c65b;
+}
+
+.open-text {
+  background-color: #1e3373;
+  border-radius: 11px;
+  margin: 1.5em;
+  padding: 25px;
+}
  
-.fold label {
-  font-size: 21px;
-  text-align: center;
-  display: block;
-  margin-top: 3em;
-  border-bottom: 1px solid #fff;
-  cursor: pointer;
-  color: #000000;
-  padding: 15px;
-  border: 3px solid black;
-  background-color: hsl(0, 0%, 66%);
-}
-
-.fold p {
-  color: #000;
-  padding: 20px;
-  line-height: 30px;
-  visibility: hidden;
-  opacity: 0;
-  display: none;
-  text-align: left;
-  background-color: #ffff;
-}
-
-#fold:checked ~ .single-text {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-#fold2:checked ~ .single-text {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  margin-top: -3px;
-}
-
-#fold2 {
-  display: none;
-  position: relative;
-}
-
-#fold3 {
-  display: none;
-  position: relative;
-}
-
-#fold3:checked ~ .single-text {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  margin-top: -3px;
-}
-
-
-hr {
-  width: 572px;
-  height: 3px;
-  margin: 4em 0px 90px 132px;
-  border-radius: 44px;
-  background-color: black;
-  position: relative;
-}
-
-#copyright {
-  margin-left: 43%;
-  margin-top: 22px;
-}
-
-#footer-line {
-  background-color: hsl(48 95% 48%);
-  height: 24px;
-  width: 89%;
-  margin-top: -104px;
-  margin-left: 52px;
-  z-index: -1;
-}
-
-#footer_items {
-  margin-left: 29%;
-  margin-top: 20px;
-  padding-bottom: 26px;
-  z-index: 1;
-}
-
-#footer_items > li {
-  display: inline;
-  padding-right: 44px;
-  font-family: Helvetivca, Arial;
-}
-
-#social-2 {
-  margin-left: 69%;
-  margin-top: 33px;
-}
-
-#page-top {
-  margin-left: 3em;
-}
-
 /* Code for media horizontal slider */
-
-#media-body {
-  height: 8%;
-}
  
 .surroundContainer {
-  padding-top: 67px;
-  margin-top: 10em;
-  height: 100%;
-  width: 100%;
   white-space: nowrap;
   overflow: auto;
 }
 
 img {
   padding-right: 4em;
-}
+}  
 
-.hpage {
-  display: inline-block;
-  height: 90%;
-  width: 100%;
-  padding-right: 22em;
-}
-
-.spacer-9 {
-  padding-left: 8em;
-  padding-right: 8em;
-  height: 400px;
-  width: 722px;
-}
-
-.spacer-10 {
-  height: 400px;
-  width: 722px;
-  padding-right: 8em;
-  padding-left: 8em;
-}
-
-iframe {
-  width: 470px;
-  height: 345px;
-
-  border: 0;
-}
+ 
  
