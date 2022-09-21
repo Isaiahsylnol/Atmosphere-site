@@ -6,26 +6,28 @@ body {
     background-color: #325993;
 }  
 
-.navbar{
-  height: 100px;
-}
-
 .nav-link {
   font-size: x-large;
   color: #000;
 }
 
-a {
-  color: black;
-  text-decoration: #e6bc3c;
-}  
-
 p, h1, h2, h3, h5, a {
   color: rgb(230, 230, 230);
-}
+} 
 
 footer {
   background-color: #1e3373;
+  
+}
+
+ footer a {
+  text-decoration:none; 
+}
+
+a:hover {
+  color:#ffee32; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
 
 .footer-border {
@@ -82,30 +84,12 @@ footer {
   font-size: 25px;
 }
 
-.underline {
-  border-bottom: #ff4000 solid 5px;
+.bg-white {
+  background-color: #bcbcbc !important;
 }
 
-@media only screen and (max-width: 1000px) { 
-  .border-start{ 
-    border: none !important;
-    border-width : 0 !important;
-    border-bottom: none !important;
-  }
-  .footer-border {
-    background-color: #8398d7;
-    border: solid rgb(230, 230, 230);
-    color: #000;
-  }
-
-  footer > p {
-    color: #000;
-  } 
-
-  #profile-image {
-    width: 100%;
-  } 
- 
+.underline {
+  border-bottom: #ff4000 solid 5px;
 }
 
 /* Sources Page */
@@ -135,11 +119,20 @@ footer {
 .surroundContainer {
   white-space: nowrap;
   overflow: auto;
-}
+  margin-top: 10rem;
+ 
+} 
 
 img {
   padding-right: 4em;
 }  
 
- 
+/* Concerning footer's borders */
+@media only screen and (max-width: 1000px) { 
+  .border-start{ 
+    border: none !important;
+    border-width : 0 !important;
+    border-bottom: none !important;
+  } 
+}
  
