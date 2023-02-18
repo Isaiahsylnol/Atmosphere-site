@@ -17,7 +17,6 @@ p, h1, h2, h3, h5, a {
 
 footer {
   background-color: #1e3373;
-  
 }
 
  footer a {
@@ -45,19 +44,6 @@ a:hover {
   font-size: 20px;
   max-width: 30em;
   text-align: center;
-}
-
-#logo {
-  margin: 0px 0px 0px 33px;
-}
-
-.container-layer{
-  padding: 2em;
-}
-
-.space {
-  padding: 4em;
-  margin-bottom: 11em;
 }
 
 #title {
@@ -123,10 +109,7 @@ a:hover {
  
 } 
 
-img {
-  padding-right: 4em;
-}  
-
+ 
 /* Concerning footer's borders */
 @media only screen and (max-width: 1000px) { 
   .border-start{ 
@@ -135,4 +118,9 @@ img {
     border-bottom: none !important;
   } 
 }
- 
+
+
+.navbar-nav {
+  float: right;
+}
+

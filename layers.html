@@ -11,28 +11,27 @@
   </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img id="logo" src="images/nasa-logo.jpg" alt="Site Logo" width="155px" height="75px" /> 
-      
+          <img src="images/nasa-logo-badge.png" alt="Nasa Logo" width="130px" height="90px" /> 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="media.html">Media</a>
+              <a class="nav-link text-white" aria-current="page" href="media.html">Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="source.html">Sources</a>
+              <a class="nav-link text-white" aria-current="page" href="source.html">Sources</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="active nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Layers
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,7 +39,7 @@
                 <li><a class="dropdown-item" href="layers.html#thermo">Thermosphere</a></li>
                 <li><a class="dropdown-item" href="layers.html#meso">Mesosphere</a></li>
                 <li><a class="dropdown-item" href="layers.html#strato">Stratosphere</a></li>
-                <li><a class="dropdown-item" href="layers.html#trop">Troposphere</a></li>
+                <li><a class="dropdown-item" href="layers.html#tropo">Troposphere</a></li>
               </ul>
             </li>
           </ul>
@@ -48,80 +47,62 @@
       </div>
     </nav>
    </header>
-<div class="container-layer"> 
-  <div class="row space py-5 g-5">
-    <div class="col">
-      <div> 
+<div class="container"> 
+  
+  <div class="row mb-5">
+    <div class="col-md-6 col-lg-4 bg-dark">
         <h3 class="underline">Exosphere</h3>
         <p>The exosphere is the uppermost region of Earth's atmosphere as it gradually fades into the vacuum of space. Air in the exosphere is extremely thin. Sateillites and space stations orbit best within the exosphere given it's lack of gravitual pull.</p>
         <p class="caption1"><b>Average length: 600km - 10,000km (32,808,399ft)</b></p>
-     </div>
     </div>
-    <div class="col d-flex justify-content-center">
-      <div>
-        <img src="images/satellite.jpg" width="580" height="400" alt="Thermosphere">
-      </div>
+    <div class="col-md-6">
+        <img src="images/satellite-2.jpg" class="img-fluid h-70 d-block mx-auto justify-content-center" alt="Exosphere">
     </div>
   </div>
-  
-  <div class="row space py-5 g-5">
-    <div class="col">
-      <div id="thermo" class="box">
+
+  <div class="row mb-5">
+    <div id="thermo" class="col-md-6 col-lg-4 bg-dark">
         <h3 class="underline">Thermosphere</h3>
-          <p>The thermosphere is approximately about 360° F in the daytime and roughly 900° F at night with tempertures capable of climbing higher up the layer. Lack of air pressure in the air as the climb progresses introduces no sound. Sateillites and space shuttles orbit within the outer layer of the thermosphere but are susceptible to gravital drag after a duration of time.</p>
-          <p class="caption1"><b>Average length: 90km - 600km (1,968,503.9ft)</b>
-          </p>
-      </div>
+        <p>The thermosphere is approximately about 360° F in the daytime and roughly 900° F at night with tempertures capable of climbing higher up the layer. Lack of air pressure in the air as the climb progresses introduces no sound. Sateillites and space shuttles orbit within the outer layer of the thermosphere but are susceptible to gravital drag after a duration of time.</p>
+        <p class="caption1"><b>Average length: 90km - 600km (1,968,503.9ft)</b>
+        </p>
     </div>
-    <div class="col d-flex justify-content-center">
-      <div>
-        <img src="images/layer.png" width="580" height="400" alt="Thermosphere">
-      </div>
+    <div class="col-md-6">
+      <img src="images/thermo.jpg" class="img-fluid h-70 mx-auto d-block" alt="Thermosphere">
     </div>
   </div>
 
-  <div class="row space g-5">
-    <div class="col">
-      <div id="meso" class="box">
-        <h3 class="underline">Mesosphere</h3>
-          <p>The coldest part of Earth's atmosphere with temperatures below −143 °C. The mesosphere is below the minimum altitude for orbital spacecrafts due to high atmospheric drag. Mesosphere is considered the least studied of earth's atmosphere layers. Unique clouds known as "Noctilecent clouds" consisting of ice particles or water vapor can be observed during sundown, these cloud are also documented as the highest cloud formation on the planet.</p>
-          <p class="caption1"><b>Average length: 50km - 90km (295,275.59ft)</b></p>
-        </div>
+  <div class="row mb-5">
+    <div id="meso" class="col-md-6 col-lg-4 bg-dark">
+      <h3 class="underline">Mesosphere</h3>
+      <p>The coldest part of Earth's atmosphere with temperatures below −143 °C. The mesosphere is below the minimum altitude for orbital spacecrafts due to high atmospheric drag. Mesosphere is considered the least studied of earth's atmosphere layers. Unique clouds known as "Noctilecent clouds" consisting of ice particles or water vapor can be observed during sundown, these cloud are also documented as the highest cloud formation on the planet.</p>
+      <p class="caption1"><b>Average length: 50km - 90km (295,275.59ft)</b></p>
     </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <div>
-        <img src="images/star.jpg" width="500" height="400" alt="mesosphere">
-      </div>
+    <div class="col-md-6">
+      <img src="images/meso.png" class="img-fluid h-70 mx-auto d-block" alt="Mesosphere">
     </div>
   </div>
 
-  <div class="row space g-5">
-    <div class="col">
-      <div id="strato" class="box">
-        <h3 class="underline">Stratosphere</h3>
+  <div class="row mb-5">
+    <div id="strato" class="col-md-6 col-lg-4 bg-dark">
+      <h3 class="underline">Stratosphere</h3>
           <p>Climbing the stratosphere subjects astronauts and their shuttles to winds of 130mph and violent tempertures as absorption of the Sun's ultraviolet radiation increases past the infamous ozone found in the stratosphere. Most of the sun's dangerous UV radiation is absorbed throughout this layer in turn distrubting heat throughout the atmosphere. This layer is favored among pilots due to it's horizontal air flow.</p>
           <p class="caption1"><b>Average length: 10km - 50km (164,041.99ft)</b></p>
-        </div>
     </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <div class="align-items-center">
-        <img src="images/cloud.jpg"   alt="stratosphere">
-      </div>
-    </div>
+    <div class="col-md-6">
+      <img src="images/cloud.jpg" class="img-fluid h-70 mx-auto d-block" alt="Stratosphere">
+    </div> 
   </div>
-  <div class="row space g-5">
-    <div class="col">
-      <div id="tropo" class="box">
-        <h3 class="underline">Troposphere</h3> 
-        <p>Being the closest layer to the earth the troposhphere is where all of the planet's weather forms. Weather patterns occur in the troposphere because the air near the ground is warmer than the air at higher altitudes which in turn gives rise that creates a convection current producing winds and clouds. Containing approximately 75% of the atmosphere's mass and 99% of the total mass of water vapor and aerosols.</p>
-    <br>
-       <p class="caption1"><b>Average length: Earth's surface - 17km (55,774.278ft)</b></p>
-      </div>
+
+  <div class="row mb-5">
+    <div id="tropo" class="col-md-6 col-lg-4 bg-dark">
+      <h3 class="underline">Troposphere</h3> 
+      <p>Being the closest layer to the earth the troposhphere is where all of the planet's weather forms. Weather patterns occur in the troposphere because the air near the ground is warmer than the air at higher altitudes which in turn gives rise that creates a convection current producing winds and clouds. Containing approximately 75% of the atmosphere's mass and 99% of the total mass of water vapor and aerosols.</p>
+  <br>
+     <p class="caption1"><b>Average length: Earth's surface - 17km (55,774.278ft)</b></p>
     </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <div>
-        <img src="images/balloon.jpg" width="500" height="400" alt="Troposphere">
-      </div>
+    <div class="col-md-6">
+      <img src="images/balloon.jpg" class="img-fluid h-70 mx-auto d-block" alt="Troposphere">
     </div>
   </div>
 </div>

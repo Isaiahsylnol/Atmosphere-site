@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Source Page">
@@ -11,50 +12,55 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img id="logo" src="images/nasa-logo.jpg" alt="Site Logo" width="155px" height="75px" /> 
-            
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="media.html">Media</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="active nav-link" aria-current="page" href="source.html">Sources</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Layers
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="layers.html">Exosphere</a></li>
-                      <li><a class="dropdown-item" href="layers.html#thermo">Thermosphere</a></li>
-                      <li><a class="dropdown-item" href="layers.html#meso">Mesosphere</a></li>
-                      <li><a class="dropdown-item" href="layers.html#strato">Stratosphere</a></li>
-                      <li><a class="dropdown-item" href="layers.html#trop">Troposphere</a></li>
+                <a class="navbar-brand" href="#">
+                    <img src="images/nasa-logo-badge.png" alt="Nasa Logo" width="130px" height="90px" /> 
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="active nav-link text-light" aria-current="page" href="source.html">Sources</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Layers
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="layers.html">Exosphere</a></li>
+                                <li><a class="dropdown-item" href="layers.html#thermo">Thermosphere</a></li>
+                                <li><a class="dropdown-item" href="layers.html#meso">Mesosphere</a></li>
+                                <li><a class="dropdown-item" href="layers.html#strato">Stratosphere</a></li>
+                                <li><a class="dropdown-item" href="layers.html#trop">Troposphere</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center bg-dark">
+            <!-- Left column -->
             <div class="col-md-4 p-5">
-                <img class="rounded mx-auto d-block" src="images/astro_1.jpg" alt="portrait profile" width="400px" height="460px">
-                <p class="mt-4" style="max-width: 40em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                <img class="rounded mx-auto d-block" src="images/astro_1.jpg" alt="portrait profile" width="400px"
+                    height="460px">
+                <p class="lead mt-4" style="width: fit-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     quos magni harum. Quo facere est nobis at repudiandae ullam iusto saepe, suscipit beatae nostrum
                     esse. Sint consectetur facere error officiis. Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Distinctio harum ipsa iusto in perspiciatis iste nisi dicta. Nihil veritatis voluptas
@@ -77,10 +83,9 @@
                             international pavilions, award-winning fireworks and seasonal special events.</p>
                     </details>
                 </div>
-
-
             </div>
-            <div class="col-md-3 p-5">
+            <!-- Right column -->
+            <div class="col-md-4 p-5">
                 <h3>Media</h3>
                 <p><br>NASA on the Commons. NASA (2007).<br><a
                         href="https://www.flickr.com/people/nasacommons/">https://www.flickr.com/people/nasacommons/</a>
@@ -113,68 +118,68 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
             integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
         </script>
-        </div>
-        <!-- FOOTER -->
-        <footer class="text-center text-lg-start">
-            <!-- Grid container -->
-            <div class="container p-4">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0 p-3">
-                        <h5 class="text-uppercase"><a href="#">Privacy</a></h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ante vitae
-                            consequat sodales. Class
-                            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut
-                            justo orci,
-                            faucibus quis vestibulum in, ornare non orci.
-                        </p>
-                    </div>
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
-                        <h5 class="text-uppercase"><a href="#">FAQs</a></h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ante vitae
-                            consequat sodales. Class
-                            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut
-                            justo orci,
-                            faucibus quis vestibulum in, ornare non orci.
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
-                        <h5 class="text-uppercase"><a href="#">Cookies</a></h5>
-                        <p>
-                            Pellentesque nulla nisi, rhoncus vitae tellus vitae, egestas malesuada ipsum. Etiam
-                            viverra ipsum sed
-                            turpis cursus mollis. Nam id elementum augue. Maecenas quis placerat nibh, feugiat
-                            aliquet mauris. Aenean
-                            vitae dolor in libero luctus fringilla.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
-                        <h5 class="text-uppercase"><a href="#">Blog</a></h5>
-                        <p>
-                            Donec malesuada risus nibh, id ornare sapien vehicula iaculis. Fusce bibendum, nisi eget
-                            tincidunt
-                            consequat, dui leo elementum nisi, eget mollis risus tortor id risus. Suspendisse non
-                            odio tristique,
-                            fringilla lacus in, tincidunt orci. Donec a dictum purus.
-                        </p>
-                    </div>
-                    <!--Grid column-->
+    </div>
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-0 p-3">
+                    <h5 class="text-uppercase"><a href="#">Privacy</a></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ante vitae
+                        consequat sodales. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut
+                        justo orci,
+                        faucibus quis vestibulum in, ornare non orci.
+                    </p>
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
+                    <h5 class="text-uppercase"><a href="#">FAQs</a></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ante vitae
+                        consequat sodales. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut
+                        justo orci,
+                        faucibus quis vestibulum in, ornare non orci.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
+                    <h5 class="text-uppercase"><a href="#">Cookies</a></h5>
+                    <p>
+                        Pellentesque nulla nisi, rhoncus vitae tellus vitae, egestas malesuada ipsum. Etiam
+                        viverra ipsum sed
+                        turpis cursus mollis. Nam id elementum augue. Maecenas quis placerat nibh, feugiat
+                        aliquet mauris. Aenean
+                        vitae dolor in libero luctus fringilla.</p>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-0 border-start p-3">
+                    <h5 class="text-uppercase"><a href="#">Blog</a></h5>
+                    <p>
+                        Donec malesuada risus nibh, id ornare sapien vehicula iaculis. Fusce bibendum, nisi eget
+                        tincidunt
+                        consequat, dui leo elementum nisi, eget mollis risus tortor id risus. Suspendisse non
+                        odio tristique,
+                        fringilla lacus in, tincidunt orci. Donec a dictum purus.
+                    </p>
+                </div>
+                <!--Grid column-->
             </div>
-            <!-- Grid container -->
-
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(251, 229, 64, 0.903);">
-                © 2020 Copyright:
-                <a class="text-dark" href="https://Isaiahsylvester.com/">Isaiahsylvester.com</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- FOOTER END -->
+            <!--Grid row-->
+        </div>
+        <!-- Grid container END -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(251, 229, 64, 0.903);">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://Isaiahsylvester.com/">Isaiahsylvester.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- FOOTER END -->
+</body>
 </body>
 
 </html>
