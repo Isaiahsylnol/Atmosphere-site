@@ -6,15 +6,6 @@ body {
     background-color: #325993;
 }  
 
-.nav-link {
-  font-size: x-large;
-  color: #000;
-}
-
-p, h1, h2, h3, h5, a {
-  color: rgb(230, 230, 230);
-} 
-
 footer {
   background-color: #1e3373;
 }
@@ -36,79 +27,19 @@ a:hover {
 }
 
 .active {
-  color: #000;
   font-weight: 800;
-}
-
-.index-p {
-  font-size: 20px;
-  max-width: 30em;
-  text-align: center;
-}
-
-#title {
-  border-bottom: #ff4000 solid 5px;
-  font-size: 43px;
-  width: fit-content;
-} 
-
-/* Layers CSS code*/ 
-.spacer2 {
-  margin-top: 64px;
-}
-
-.spacer1 {
-  padding-bottom: 3em;
-}
-
-#thermo-pic {
-  margin-top: 53px;
-  padding-bottom: 3em;
-} 
-
-.caption1 {
-  font-size: 25px;
-}
-
-.bg-white {
-  background-color: #bcbcbc !important;
 }
 
 .underline {
   border-bottom: #ff4000 solid 5px;
 }
-
-/* Sources Page */
-
-.text-container {
-  background-color: #1e3373;
-  color: rgb(230, 230, 230);
-  border-radius: 11px;
-  max-width: 700px;
-  padding: 1.5em;
-  font-size: 22px;
-}
-
-.text-container:hover {
-  color:#e8c65b;
-}
-
-.open-text {
-  background-color: #1e3373;
-  border-radius: 11px;
-  margin: 1.5em;
-  padding: 25px;
-}
  
 /* Code for media horizontal slider */
- 
 .surroundContainer {
   white-space: nowrap;
   overflow: auto;
   margin-top: 10rem;
- 
 } 
-
  
 /* Concerning footer's borders */
 @media only screen and (max-width: 1000px) { 
@@ -118,9 +49,3 @@ a:hover {
     border-bottom: none !important;
   } 
 }
-
-
-.navbar-nav {
-  float: right;
-}
-
